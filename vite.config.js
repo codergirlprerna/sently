@@ -7,11 +7,13 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        manualChunks: {
-          // Split Firebase into its own chunk — only loads when user tries to sign in
-          firebase: ['firebase/app', 'firebase/auth'],
-          // Split framer-motion — large library, cache separately
-          motion: ['framer-motion'],
+        manualChunks(id) {
+          if (id.includes('firebase')) {
+            return 'firebase'
+          }
+          if (id.includes('framer-motion')) {
+            return 'motion'
+          }
         },
       },
     },
