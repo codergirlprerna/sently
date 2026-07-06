@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: "Can I use this for anyone, not just couples?",
-    a: "Yes. While templates like Babe Site and Universe are popular for couples, we build for friends, family, and any relationship that matters — including Father's Day, friendships, and celebrations of any kind.",
+    a: "Yes. While templates like Our Journey and Universe are popular for couples, we build for friends, family, and any relationship that matters — including Father's Day, birthdays, friendships, and celebrations of any kind.",
   },
   {
     q: "Will the link work forever?",
@@ -95,8 +95,8 @@ export default function FAQ() {
         <Reveal delay={0.2} className="text-center mt-10">
           <p className="text-[0.85rem] text-muted">
             Still have questions?{" "}
-            <a
-              href="#order"
+            
+            <a  href="#order"
               onClick={(e) => handleAnchorClick(e, "order")}
               className="text-accent font-medium hover:underline"
             >

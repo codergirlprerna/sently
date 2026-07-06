@@ -27,7 +27,7 @@ export default function Hero() {
           >
             <span className="w-[5px] h-[5px] rounded-full bg-accent" />
             <span className="text-[0.7rem] text-accent font-medium tracking-wide">
-              Personalized websites as gifts
+              Personalized gift experiences
             </span>
           </motion.div>
 
@@ -35,7 +35,7 @@ export default function Hero() {
             {...fadeUp(0.1)}
             className="font-display text-[2.2rem] sm:text-[2.8rem] md:text-[4.2rem] leading-[1.12] tracking-tight mb-6"
           >
-            We build a <em className="italic text-accent">website</em>
+            We craft an <em className="italic text-accent">experience</em>
             <br />
             for the person you love.
           </motion.h1>
@@ -44,7 +44,7 @@ export default function Hero() {
             {...fadeUp(0.2)}
             className="text-[1rem] leading-[1.75] text-muted max-w-[420px] mb-10"
           >
-            Not a card. Not a reel. A real, live website — personalized with your photos, your story, your moments. They get one link. It lasts forever.
+            Not a card. Not a reel. A living, personalized experience — built from your photos, your story, your moments. They get one link. It lasts forever.
           </motion.p>
 
           <motion.div {...fadeUp(0.3)} className="flex flex-wrap gap-3">

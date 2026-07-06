@@ -17,9 +17,9 @@ const reviews = [
     color: "bg-[#5c2418] text-white",
   },
   {
-    quote: "My best friend cried, her mom cried, I cried. The Babe Site had all our stupid inside jokes. Nothing else could've done this.",
+    quote: "My best friend cried, her mom cried, I cried. Our Journey had all our stupid inside jokes. Nothing else could've done this.",
     name: "Simran T.",
-    occ: "Babe Site · Birthday",
+    occ: "Our Journey · Birthday",
     initials: "ST",
     color: "bg-[#5c1c28] text-white",
   },

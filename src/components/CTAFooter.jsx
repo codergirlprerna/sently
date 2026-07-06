@@ -9,7 +9,7 @@ export function CTA() {
         <h2 className="font-display text-[2.4rem] sm:text-[3.2rem] md:text-[5rem] leading-[1.1] tracking-tight mb-5">
           Someone deserves
           <br />
-          a <em className="italic text-accent">website</em> today.
+          a <em className="italic text-accent">gift</em> today.
         </h2>
         <p className="text-[0.92rem] text-muted leading-[1.75] mb-12">
           Birthdays. Anniversaries. Father's Day. Long distance. Proposals. Just because.

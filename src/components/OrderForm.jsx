@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { buildWhatsAppLink } from "../lib/whatsapp";
 import { onTemplateSelect } from "../lib/scroll";
 
-const templateOptions = ["Universe", "Lumina", "The Book", "Scratch Card", "Babe Site", "Not sure yet"];
+const templateOptions = ["Universe", "Lumina", "The Book", "Scratch Card", "Our Journey", "Birthday Site", "Not sure yet"];
 
 const occasionOptions = [
   "Anniversary",
